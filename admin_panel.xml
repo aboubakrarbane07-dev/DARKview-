@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#0F172A"> <!-- خلفية زرقاء داكنة ترمز للتحكم والإدارة -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developer Admin Console"
+        android:textColor="#38BDF8"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="25dp"/>
+
+    <!-- بطاقة عرض إحصائيات إجمالي المستخدمين -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Users: 1,240"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:background="#1E293B"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- بطاقة عرض إجمالي عمليات الحجز المكتملة -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Bookings: 4,892"
+        android:textColor="#FFFFFF"
+        android:padding="15dp"
+        android:background="#1E293B"
+        android:textSize="18sp"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- زر لمراقبة حالة السيرفر أو قاعدة البيانات -->
+    <Button
+        android:id="@+id/btnServerStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Server Status: ONLINE"
+        android:backgroundTint="#22C55E"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
